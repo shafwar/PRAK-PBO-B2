@@ -1,4 +1,3 @@
-// Source code is decompiled from a .class file using FernFlower decompiler.
 public class Main {
    public Main() {
    }
@@ -6,10 +5,10 @@ public class Main {
    public static void main(String[] var0) {
       MataKuliah var1 = new MataKuliah("PBO", "Pemrograman Berorientasi Objek", 3);
       MataKuliah var2 = new MataKuliah("MBD", "Manajemen Basis Data", 3);
-      MataKuliah var3 = new MataKuliah("ML", "Mobile Legends", 3);
-      Mahasiswa var4 = new Mahasiswa("213", "Diaz", "Informatika");
-      Dosen var5 = new Dosen("666", "Draco", "Informatika");
-      Kendaraan var6 = new Kendaraan("B123499", "Helikopter");
+      MataKuliah var3 = new MataKuliah("ML", "Machine Learning", 3);
+      Mahasiswa var4 = new Mahasiswa("121", "Shafi", "Informatika");
+      Dosen var5 = new Dosen("303", "Anwar", "Informatika");
+      Kendaraan var6 = new Kendaraan("B123499", "Mobil");
       var4.setDosenWali(var5);
       var4.setKendaraan(var6);
       var4.addMatkul(var1);
