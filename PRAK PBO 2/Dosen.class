@@ -1,0 +1,36 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class Dosen {
+   private String NIP;
+   private String Nama;
+   private String Prodi;
+
+   public Dosen(String var1, String var2, String var3) {
+      this.NIP = var1;
+      this.Nama = var2;
+      this.Prodi = var3;
+   }
+
+   public String getNip() {
+      return this.NIP;
+   }
+
+   public String getNama() {
+      return this.Nama;
+   }
+
+   public String getProdi() {
+      return this.Prodi;
+   }
+
+   public void setNIP(String var1) {
+      this.NIP = var1;
+   }
+
+   public void setNama(String var1) {
+      this.Nama = var1;
+   }
+
+   public void setProdi(String var1) {
+      this.Prodi = var1;
+   }
+}

@@ -1,0 +1,109 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import java.io.PrintStream;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Mahasiswa {
+   private String nim;
+   private String nama;
+   private String prodi;
+   private ArrayList<MataKuliah> listMatkul;
+   private Dosen dosenWali;
+   private Kendaraan Kendaraan;
+
+   public Mahasiswa() {
+      this.listMatkul = new ArrayList();
+   }
+
+   public Mahasiswa(String var1, String var2, String var3) {
+      this.nim = var1;
+      this.nama = var2;
+      this.prodi = var3;
+      this.listMatkul = new ArrayList();
+   }
+
+   public String getNim() {
+      return this.nim;
+   }
+
+   public String getNama() {
+      return this.nama;
+   }
+
+   public String getProdi() {
+      return this.prodi;
+   }
+
+   public Dosen getDosenWali() {
+      return this.dosenWali;
+   }
+
+   public Kendaraan getKendaraan() {
+      return this.Kendaraan;
+   }
+
+   public void setNim(String var1) {
+      this.nim = var1;
+   }
+
+   public void setNama(String var1) {
+      this.nama = var1;
+   }
+
+   public void setProdi(String var1) {
+      this.prodi = var1;
+   }
+
+   public void setDosenWali(Dosen var1) {
+      this.dosenWali = var1;
+   }
+
+   public void setKendaraan(Kendaraan var1) {
+      this.Kendaraan = var1;
+   }
+
+   public void addMatkul(MataKuliah var1) {
+      this.listMatkul.add(var1);
+   }
+
+   public int getJumlahSKS() {
+      int var1 = 0;
+
+      MataKuliah var3;
+      for(Iterator var2 = this.listMatkul.iterator(); var2.hasNext(); var1 += var3.getSks()) {
+         var3 = (MataKuliah)var2.next();
+      }
+
+      return var1;
+   }
+
+   public int getJumlahMatkul() {
+      return this.listMatkul.size();
+   }
+
+   public void printDetailMhs() {
+      System.out.println("NIM: " + this.nim);
+      System.out.println("Nama: " + this.nama);
+      System.out.println("Prodi: " + this.prodi);
+      System.out.println("Jumlah Mata Kuliah: " + this.getJumlahMatkul());
+      System.out.println("Total SKS: " + this.getJumlahSKS());
+      if (this.dosenWali != null) {
+         System.out.println("Dosen Wali: " + this.dosenWali.getNama());
+      }
+
+      if (this.Kendaraan != null) {
+         PrintStream var10000 = System.out;
+         String var10001 = this.Kendaraan.getNoPlat();
+         var10000.println("Kendaraan: " + var10001 + " - " + this.Kendaraan.getJenis());
+      }
+
+      System.out.println("Mata Kuliah yang diambil:");
+      Iterator var1 = this.listMatkul.iterator();
+
+      while(var1.hasNext()) {
+         MataKuliah var2 = (MataKuliah)var1.next();
+         System.out.println("- " + var2.getNama());
+      }
+
+   }
+}

@@ -1,0 +1,20 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class Main {
+   public Main() {
+   }
+
+   public static void main(String[] var0) {
+      MataKuliah var1 = new MataKuliah("PBO", "Pemrograman Berorientasi Objek", 3);
+      MataKuliah var2 = new MataKuliah("MBD", "Manajemen Basis Data", 3);
+      MataKuliah var3 = new MataKuliah("ML", "Mobile Legends", 3);
+      Mahasiswa var4 = new Mahasiswa("213", "Diaz", "Informatika");
+      Dosen var5 = new Dosen("666", "Draco", "Informatika");
+      Kendaraan var6 = new Kendaraan("B123499", "Helikopter");
+      var4.setDosenWali(var5);
+      var4.setKendaraan(var6);
+      var4.addMatkul(var1);
+      var4.addMatkul(var2);
+      var4.addMatkul(var3);
+      var4.printDetailMhs();
+   }
+}

@@ -1,0 +1,42 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class MataKuliah {
+   private String idMatKul;
+   private String nama;
+   private int sks;
+
+   public MataKuliah() {
+      this.idMatKul = "";
+      this.nama = "";
+      this.sks = 0;
+   }
+
+   public MataKuliah(String var1, String var2, int var3) {
+      this.idMatKul = var1;
+      this.nama = var2;
+      this.sks = var3;
+   }
+
+   public String getIdMatKul() {
+      return this.idMatKul;
+   }
+
+   public String getNama() {
+      return this.nama;
+   }
+
+   public int getSks() {
+      return this.sks;
+   }
+
+   public void setIdMatKul(String var1) {
+      this.idMatKul = var1;
+   }
+
+   public void setNama(String var1) {
+      this.nama = var1;
+   }
+
+   public void setSks(int var1) {
+      this.sks = var1;
+   }
+}
