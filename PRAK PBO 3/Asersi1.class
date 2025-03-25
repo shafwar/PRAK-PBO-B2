@@ -1,0 +1,17 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class Asersi1 {
+   public Asersi1() {
+   }
+
+   public static void main(String[] var0) {
+      byte var1 = 0;
+      if (var1 > 0) {
+         System.out.println("x bilangan positif");
+      } else {
+         assert var1 < 0 : "ada kesalahan kode";
+
+         System.out.println("x bilangan negatif");
+      }
+
+   }
+}

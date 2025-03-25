@@ -1,0 +1,27 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class AngkaSial {
+   public AngkaSial() {
+   }
+
+   public void cobaAngka(int var1) throws AngkaSialException {
+      if (var1 == 13) {
+         throw new AngkaSialException();
+      } else {
+         System.out.println("Angka " + var1 + " bukan angka sial");
+      }
+   }
+
+   public static void main(String[] var0) {
+      AngkaSial var1 = new AngkaSial();
+
+      try {
+         var1.cobaAngka(10);
+         var1.cobaAngka(13);
+         var1.cobaAngka(12);
+      } catch (AngkaSialException var3) {
+         System.out.println(var3.getMessage());
+         System.out.println("Hati-hati memasukkan angka!!!");
+      }
+
+   }
+}
