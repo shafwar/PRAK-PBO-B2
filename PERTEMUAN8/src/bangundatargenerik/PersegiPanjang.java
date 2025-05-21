@@ -1,5 +1,4 @@
-/* Nama : George Imanuel Surya
- * NIM : 24060123120028
+/* Nama : Naufal Shafi Anwar - 24060122140185
  * File : PersegiPanjang.java
  * Tanggal : 10 Mei 2025
  */
