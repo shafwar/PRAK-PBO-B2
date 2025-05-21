@@ -1,3 +1,9 @@
+/**
+ * File         : MManusia.java
+ * Deskripsi    : Main program penggunaan Abstract dan Interface.
+ * Pembuat      : George Imanuel Surya - 24060123120028
+ * Lab          : B2
+ */
 
 import java.time.LocalDate;
 

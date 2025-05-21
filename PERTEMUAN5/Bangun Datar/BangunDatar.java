@@ -1,3 +1,10 @@
+/**
+ * File         : BangunDatar.java
+ * Deskripsi    : Program penggunaan Abstract. Pembuatan Abstract Class Bangun Datar
+ * Pembuat      : George Imanuel Surya - 24060123120028
+ * Lab          : B2
+ */
+
 // Kelas BangunDatar
 public abstract class BangunDatar implements IResize {
     protected int jmlSisi;

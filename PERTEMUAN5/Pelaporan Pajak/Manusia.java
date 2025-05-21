@@ -1,3 +1,9 @@
+/**
+ * File         : Manusia.java
+ * Deskripsi    : Program penggunaan Absract. Pembuatan Abstract Class Manusia
+ * Pembuat      : George Imanuel Surya - 24060123120028
+ * Lab          : B2
+ */
 
 import java.time.LocalDate;
 

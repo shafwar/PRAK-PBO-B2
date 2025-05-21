@@ -1,3 +1,10 @@
+/**
+ * File         : Persegi.java
+ * Deskripsi    : Program penggunaan Inheritance. Pembuatan Subclass Persegi
+ * Pembuat      : George Imanuel Surya - 24060123120028
+ * Lab          : B2
+ */
+
 // Kelas Persegi yang merupakan turunan dari BangunDatar
 public class Persegi extends BangunDatar {
     private double sisi;

@@ -1,3 +1,10 @@
+/**
+ * File         : Lingkaran.java
+ * Deskripsi    : Program penggunaan Inheritance. Pembuatan Subclass Lingkaran
+ * Pembuat      : George Imanuel Surya - 24060123120028
+ * Lab          : B2
+ */
+
 // Kelas Lingkaran yang merupakan turunan dari BangunDatar
 public class Lingkaran extends BangunDatar {
     private double jari;

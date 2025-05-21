@@ -1,3 +1,9 @@
+/**
+ * File         : Pengusaha.java
+ * Deskripsi    : Program penggunaan Abstract dan Interface. Pembuatan Subclass Pengusaha
+ * Pembuat      : George Imanuel Surya - 24060123120028
+ * Lab          : B2
+ */
 
 import java.time.LocalDate;
 import java.time.Period;
